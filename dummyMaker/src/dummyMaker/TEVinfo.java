@@ -1,6 +1,6 @@
 package dummyMaker;
 
-public class REFinfo {
+public class TEVinfo {
 	private String itemCode;
 	private String category;
 	private String ent;
@@ -8,9 +8,9 @@ public class REFinfo {
 	private String code;
 	private String color;
 	private String door;
+	private String door2;
 	private String volume;
-	public REFinfo(String itemCode, String category, String ent, String name, String code, String color, String door,
-			String volume) {
+	public TEVinfo(String itemCode, String category, String ent, String name, String code, String color, String door, String door2, String volume) {
 		super();
 		this.itemCode = itemCode;
 		this.category = category;
@@ -19,6 +19,7 @@ public class REFinfo {
 		this.code = code;
 		this.color = color;
 		this.door = door;
+		this.door2 = door2;
 		this.volume = volume;
 	}
 	public String getItemCode() {
@@ -63,6 +64,12 @@ public class REFinfo {
 	public void setDoor(String door) {
 		this.door = door;
 	}
+	public String getDoor2() {
+		return door2;
+	}
+	public void setDoor2(String door2) {
+		this.door2 = door2;
+	}
 	public String getVolume() {
 		return volume;
 	}
@@ -72,7 +79,7 @@ public class REFinfo {
 	@Override
 	public String toString() {
 		return "REF [itemCode=" + itemCode + ", category=" + category + ", ent=" + ent + ", name=" + name + ", code=" + code
-				+ ", color=" + color + ", door=" + door + ", volume=" + volume + "]\n";
+				+ ", color=" + color + ", door=" + door + ", door2=" + door2 + ", volume=" + volume + "]\n";
 	}
 	
 }

@@ -1,6 +1,6 @@
 package dummyMaker;
 
-public class REFinfo {
+public class MSCinfo {
 	private String itemCode;
 	private String category;
 	private String ent;
@@ -9,7 +9,7 @@ public class REFinfo {
 	private String color;
 	private String door;
 	private String volume;
-	public REFinfo(String itemCode, String category, String ent, String name, String code, String color, String door,
+	public MSCinfo(String itemCode, String category, String ent, String name, String code, String color, String door,
 			String volume) {
 		super();
 		this.itemCode = itemCode;
